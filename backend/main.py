@@ -35,7 +35,11 @@ import uvicorn
 
 from db import get_schema_description
 from graph import get_graph, graph_to_json, get_node_neighbors
-from llm import chat
+try:
+    from llm import chat
+except Exception as e:
+    print(f"ERROR importing llm: {e}")
+    raise
 
 # ─── CREATE FASTAPI APP ───────────────────────────────────────────────────────
 
