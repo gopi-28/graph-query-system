@@ -11,7 +11,7 @@ The application combines:
 
 The system is designed to answer only dataset-grounded questions and reject unrelated prompts.
 ## Links
-- Live Demo: [To be added after deployment]
+- Live Demo: https://graph-query-system-5m5a.vercel.app
 - GitHub Repository: https://github.com/gopi-28/graph-query-system
 ---
 
